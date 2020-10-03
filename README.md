@@ -28,3 +28,6 @@ It may now be no longer necessary to use my Dev
 Install instructions for Composer and Drush on Dreamhost
 TODO:
 
+Must use this:
+php composer require drush/drush
+
