@@ -57,5 +57,6 @@ process:
 destination:
   plugin: 'entity:filter_format'
 migration_dependencies:
-  required: {  }
+  required:
+    - upgrade_d7_filter_settings
   optional: {  }
