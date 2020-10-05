@@ -63,5 +63,6 @@ destination:
   plugin: 'entity:commerce_product_type'
   destination_module: commerce_product
 migration_dependencies:
-  required: {  }
+  required:
+    - upgrade_commerce1_product_variation_type
   optional: {  }
