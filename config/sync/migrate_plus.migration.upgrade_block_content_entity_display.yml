@@ -10,7 +10,7 @@ migration_tags:
   - 'Drupal 6'
   - 'Drupal 7'
   - Configuration
-migration_group: migrate_drupal_7
+migration_group: migrate_drupal_7_last
 label: 'Body field display configuration'
 source:
   plugin: embedded_data
