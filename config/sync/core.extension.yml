@@ -85,6 +85,7 @@ module:
   physical: 0
   profile: 0
   protected_pages: 0
+  redirect: 0
   rules: 0
   schema_event: 0
   schema_metatag: 0
