@@ -1,0 +1,12 @@
+uuid: 5eba4e4c-0b65-49f1-8564-544a0205c9a5
+langcode: en
+status: true
+dependencies: {  }
+id: migrate_drupal_7_last
+label: 'Migrate Drupal 7 last'
+description: 'Put migrations with mutiple dependencies at the end'
+source_type: 'Drupal 7'
+module: null
+shared_configuration:
+  source:
+    key: migrate
