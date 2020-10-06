@@ -1,0 +1,40 @@
+uuid: 28cdc219-3a43-47b6-92aa-7a487230c888
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.user.user.commerce_remote_id
+    - field.field.user.user.field_metatag
+    - field.field.user.user.user_picture
+  module:
+    - image
+    - user
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  masquerade:
+    weight: 50
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  member_for:
+    weight: 5
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  user_picture:
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: content
+    type: image
+    weight: 51
+    third_party_settings: {  }
+    region: content
+hidden:
+  billing_profiles: true
+  commerce_remote_id: true
+  customer_profiles: true
+  field_metatag: true

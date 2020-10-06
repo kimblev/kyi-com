@@ -1,0 +1,8 @@
+uuid: 0428d095-ab61-4066-894c-7b7f0315f334
+langcode: en
+status: true
+dependencies: {  }
+id: comment_node_product_display
+label: 'Product Display Post-Licensing comment'
+target_entity_type_id: node
+description: null

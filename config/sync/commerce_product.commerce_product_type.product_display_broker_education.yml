@@ -1,0 +1,12 @@
+uuid: ba7440e2-4462-44ff-98fb-ae9a70e2821d
+langcode: en
+status: true
+dependencies: {  }
+id: product_display_broker_education
+label: 'Product Display Broker Education'
+description: ''
+variationType: broker_education
+multipleVariations: true
+injectVariationFields: true
+traits: {  }
+locked: false

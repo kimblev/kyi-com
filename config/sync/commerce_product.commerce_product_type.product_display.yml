@@ -1,0 +1,12 @@
+uuid: 9b04cd5c-aacf-4579-a224-856580c18cbf
+langcode: en
+status: true
+dependencies: {  }
+id: product_display
+label: 'Product Display Post-Licensing'
+description: ''
+variationType: product_display
+multipleVariations: true
+injectVariationFields: true
+traits: {  }
+locked: false

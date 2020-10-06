@@ -1,0 +1,10 @@
+uuid: 0ec39a3a-febd-48af-8bee-287a53bb9e91
+langcode: en
+status: true
+dependencies: {  }
+id: simple_content_block
+label: 'Simple Content Block'
+icon_uuid: null
+icon_default: null
+description: 'Migrated from paragraph bundle Simple Content Block'
+behavior_plugins: {  }

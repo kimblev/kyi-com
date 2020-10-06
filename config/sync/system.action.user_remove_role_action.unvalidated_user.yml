@@ -1,0 +1,14 @@
+uuid: 07a6dbeb-4c2c-4ff6-8620-92f96caf2fe3
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.unvalidated_user
+  module:
+    - user
+id: user_remove_role_action.unvalidated_user
+label: 'Remove the unvalidated user role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: unvalidated_user

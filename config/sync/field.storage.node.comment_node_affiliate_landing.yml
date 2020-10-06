@@ -1,0 +1,20 @@
+uuid: b57b0611-15f5-4ff5-8281-ea756d3053a5
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+    - node
+id: node.comment_node_affiliate_landing
+field_name: comment_node_affiliate_landing
+entity_type: node
+type: comment
+settings:
+  comment_type: comment_node_affiliate_landing
+module: comment
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

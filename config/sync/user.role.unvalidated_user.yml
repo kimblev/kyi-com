@@ -1,0 +1,10 @@
+uuid: f4636d15-6367-4bdd-a172-16b747092663
+langcode: en
+status: true
+dependencies: {  }
+id: unvalidated_user
+label: 'unvalidated user'
+weight: 1
+is_admin: null
+permissions:
+  - 'access protected page password screen'

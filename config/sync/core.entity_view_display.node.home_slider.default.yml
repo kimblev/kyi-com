@@ -1,0 +1,42 @@
+uuid: f8b1bdb6-914e-4f1b-9504-8a2918b9ddf5
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.comment_node_home_slider.default
+    - field.field.node.home_slider.body
+    - field.field.node.home_slider.comment_node_home_slider
+    - field.field.node.home_slider.field_metatag
+    - node.type.home_slider
+  module:
+    - comment
+    - text
+    - user
+id: node.home_slider.default
+targetEntityType: node
+bundle: home_slider
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  comment_node_home_slider:
+    label: hidden
+    type: comment_default
+    weight: 20
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_metatag: true

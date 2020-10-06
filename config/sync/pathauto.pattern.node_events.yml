@@ -1,0 +1,21 @@
+uuid: 49ab9da0-2498-496e-a1cc-8d5752b48e00
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node_events
+label: 'Content - Events'
+type: 'canonical_entities:node'
+pattern: 'calendar/[node:title]'
+selection_criteria:
+  -
+    id: node_type
+    bundles:
+      events: events
+    negate: false
+    context_mapping:
+      node: node
+selection_logic: and
+weight: 0
+relationships: {  }

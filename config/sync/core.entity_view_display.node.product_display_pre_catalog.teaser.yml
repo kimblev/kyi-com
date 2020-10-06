@@ -1,0 +1,32 @@
+uuid: 60d177f0-319c-49d9-92da-6ea168049a67
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.product_display_pre_catalog.body
+    - field.field.node.product_display_pre_catalog.field_metatag
+    - node.type.product_display_pre_catalog
+  module:
+    - text
+    - user
+id: node.product_display_pre_catalog.teaser
+targetEntityType: node
+bundle: product_display_pre_catalog
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_metatag: true

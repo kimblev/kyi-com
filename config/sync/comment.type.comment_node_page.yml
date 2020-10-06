@@ -1,0 +1,8 @@
+uuid: de7e61bc-22f5-4c32-90ef-4dd81f7da986
+langcode: en
+status: true
+dependencies: {  }
+id: comment_node_page
+label: 'GRI Application comment'
+target_entity_type_id: node
+description: null

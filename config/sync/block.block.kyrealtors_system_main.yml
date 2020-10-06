@@ -1,0 +1,20 @@
+uuid: ef74a779-e686-4e48-962b-042cf0e56cbf
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - stark
+id: kyrealtors_system_main
+theme: stark
+region: content
+weight: -28
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: ''
+  provider: system
+  label_display: '0'
+visibility: {  }

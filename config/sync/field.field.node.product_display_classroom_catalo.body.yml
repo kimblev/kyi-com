@@ -1,0 +1,23 @@
+uuid: 0e117fb1-fac3-48e6-970a-dbc9fa2933ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.product_display_classroom_catalo
+  module:
+    - text
+id: node.product_display_classroom_catalo.body
+field_name: body
+entity_type: node
+bundle: product_display_classroom_catalo
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

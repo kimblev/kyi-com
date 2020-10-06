@@ -1,0 +1,30 @@
+uuid: 5bc1a2d7-8784-407b-b286-64cec8654001
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.product_display_pre_catalog.body
+    - field.field.node.product_display_pre_catalog.field_metatag
+    - node.type.product_display_pre_catalog
+  module:
+    - text
+    - user
+id: node.product_display_pre_catalog.default
+targetEntityType: node
+bundle: product_display_pre_catalog
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_metatag: true

@@ -1,0 +1,21 @@
+uuid: eccce096-3e2f-4f8d-8af5-aefd92a41b61
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_product_display_pre
+    - field.storage.comment.comment_body
+  module:
+    - text
+id: comment.comment_node_product_display_pre.comment_body
+field_name: comment_body
+entity_type: comment
+bundle: comment_node_product_display_pre
+label: Comment
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

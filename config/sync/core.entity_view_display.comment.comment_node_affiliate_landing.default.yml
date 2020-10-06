@@ -1,0 +1,27 @@
+uuid: a38be53c-976c-4c1e-9183-d051330f28a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_affiliate_landing
+    - field.field.comment.comment_node_affiliate_landing.comment_body
+  module:
+    - text
+id: comment.comment_node_affiliate_landing.default
+targetEntityType: comment
+bundle: comment_node_affiliate_landing
+mode: default
+content:
+  comment_body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

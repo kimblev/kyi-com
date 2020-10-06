@@ -1,0 +1,21 @@
+uuid: fabba7b9-d946-4d45-95ef-fb646151c59c
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - ''
+id: adminimal_search_form
+theme: ''
+region: ''
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: ''
+  provider: search
+  label_display: '0'
+  page_id: ''
+visibility: {  }

@@ -1,0 +1,23 @@
+uuid: 47a59e78-c593-4a06-8ad5-2e275b813cf3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.affiliate_landing
+  module:
+    - text
+id: node.affiliate_landing.body
+field_name: body
+entity_type: node
+bundle: affiliate_landing
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

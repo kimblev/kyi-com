@@ -1,0 +1,10 @@
+uuid: 53acec29-e1f2-401a-873b-294b9784d629
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+id: commerce_product_variation.node_revision
+label: node_revision
+targetEntityType: commerce_product_variation
+cache: true

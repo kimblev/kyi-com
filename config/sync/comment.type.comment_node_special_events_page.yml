@@ -1,0 +1,8 @@
+uuid: 3209453c-d8f3-4a0a-9a92-f65fd66c4c3c
+langcode: en
+status: true
+dependencies: {  }
+id: comment_node_special_events_page
+label: 'Special Events Page comment'
+target_entity_type_id: node
+description: null

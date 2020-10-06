@@ -1,0 +1,42 @@
+uuid: 3b46453e-ced7-4aed-8f85-f9715b2ff1ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.comment_node_events2.default
+    - field.field.node.events2.body
+    - field.field.node.events2.comment_node_events2
+    - field.field.node.events2.field_metatag
+    - node.type.events2
+  module:
+    - comment
+    - text
+    - user
+id: node.events2.default
+targetEntityType: node
+bundle: events2
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  comment_node_events2:
+    label: hidden
+    type: comment_default
+    weight: 20
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_metatag: true

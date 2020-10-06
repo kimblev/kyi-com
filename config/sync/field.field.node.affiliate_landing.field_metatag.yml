@@ -1,0 +1,21 @@
+uuid: 55126cb0-0635-4f3c-bdc2-baee89aee2f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_metatag
+    - node.type.affiliate_landing
+  module:
+    - metatag
+id: node.affiliate_landing.field_metatag
+field_name: field_metatag
+entity_type: node
+bundle: affiliate_landing
+label: 'Meta tags'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

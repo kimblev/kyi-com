@@ -1,0 +1,42 @@
+uuid: 2709f0ec-1b00-4a07-8209-5d0c95e9d84e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.comment_node_product_display.default
+    - field.field.node.product_display.body
+    - field.field.node.product_display.comment_node_product_display
+    - field.field.node.product_display.field_metatag
+    - node.type.product_display
+  module:
+    - comment
+    - text
+    - user
+id: node.product_display.default
+targetEntityType: node
+bundle: product_display
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  comment_node_product_display:
+    label: hidden
+    type: comment_default
+    weight: 20
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_metatag: true

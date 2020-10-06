@@ -1,0 +1,12 @@
+uuid: b10ecc80-8cde-4d5f-9107-74c22a0e4f45
+langcode: en
+status: true
+dependencies: {  }
+id: product_display_ce
+label: 'Product Display CE'
+description: 'Product display type for continuing education Courses'
+variationType: ce
+multipleVariations: true
+injectVariationFields: true
+traits: {  }
+locked: false
