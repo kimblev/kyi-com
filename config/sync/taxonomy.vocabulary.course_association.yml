@@ -1,8 +1,0 @@
-uuid: 85831dba-17b1-43bb-9402-519bb25152f8
-langcode: en
-status: true
-dependencies: {  }
-name: 'Course Association'
-vid: course_association
-description: ''
-weight: 0

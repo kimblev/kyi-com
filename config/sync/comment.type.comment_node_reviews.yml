@@ -1,8 +1,0 @@
-uuid: 5d5b80ee-f986-4371-914c-8500bf515c52
-langcode: en
-status: true
-dependencies: {  }
-id: comment_node_reviews
-label: 'Reviews comment'
-target_entity_type_id: node
-description: null

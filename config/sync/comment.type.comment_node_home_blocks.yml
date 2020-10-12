@@ -1,8 +1,0 @@
-uuid: 59365a67-6189-41eb-82a0-31e54a0fef6d
-langcode: en
-status: true
-dependencies: {  }
-id: comment_node_home_blocks
-label: 'Home Blocks comment'
-target_entity_type_id: node
-description: null

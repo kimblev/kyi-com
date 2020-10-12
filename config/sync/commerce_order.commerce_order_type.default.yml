@@ -1,4 +1,4 @@
-uuid: fc3774a4-639c-40ab-9338-99a0ac448884
+uuid: e9ead3c7-3144-4ec6-8770-4bdfea9def95
 langcode: en
 status: true
 dependencies: {  }
@@ -9,7 +9,7 @@ id: default
 workflow: order_default
 numberPattern: order_default
 refresh_mode: customer
-refresh_frequency: 15
+refresh_frequency: 300
 sendReceipt: true
 receiptBcc: ''
 traits: {  }

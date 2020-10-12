@@ -1,4 +1,4 @@
-uuid: 8c793fdd-9417-4343-a7dd-55eb3d2c740e
+uuid: 92369522-a8f3-4566-aecd-5b0322e41345
 langcode: en
 status: true
 dependencies:
@@ -67,12 +67,6 @@ content:
       display_label: true
     weight: 6
     region: content
-    third_party_settings: {  }
-  shipping_countries:
-    type: options_select
-    weight: 4
-    region: content
-    settings: {  }
     third_party_settings: {  }
   tax_registrations:
     type: options_select

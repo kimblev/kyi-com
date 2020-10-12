@@ -1,25 +1,13 @@
-uuid: 7098e2df-fb15-4c05-8550-b2523789c5ff
+uuid: cf0f4519-d30b-4cbe-998a-a683ae1da75e
 langcode: en
 status: true
-dependencies:
-  module:
-    - menu_ui
-third_party_settings:
-  menu_ui:
-    available_menus:
-      - menu-about-sub-menu
-      - menu-brokers-sub-menu
-      - menu-designation-sub-menu
-      - menu-events-sub-menu
-      - menu-gri-sub-menu-
-      - main-menu
-      - menu-post-licensing-sub-menu-
-      - menu-scholarship-sub-menu
-    parent: 'main-menu:0:'
+dependencies: {  }
+_core:
+  default_config_hash: AeW1SEDgb1OTQACAWGhzvMknMYAJlcZu0jljfeU3oso
 name: Article
 type: article
 description: 'Use <em>articles</em> for time-sensitive content like news, press releases or blog posts.'
 help: ''
-new_revision: false
+new_revision: true
 preview_mode: 1
 display_submitted: true

@@ -1,4 +1,4 @@
-uuid: e98f0124-6a46-40f4-aa1d-dc47b21dd3ac
+uuid: 940322d0-65a3-4e7e-82b2-c38d635de8ab
 langcode: en
 status: true
 dependencies:
@@ -26,13 +26,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-  cart:
-    type: boolean_checkbox
-    settings:
-      display_label: true
-    weight: 20
-    region: content
-    third_party_settings: {  }
   order_items:
     type: inline_entity_form_complex
     weight: 1

@@ -1,8 +1,0 @@
-uuid: 0479c361-5a0a-4ddd-96c4-006a6e17f6ca
-langcode: en
-status: true
-dependencies: {  }
-id: comment_node_home_slider
-label: 'Home Slider comment'
-target_entity_type_id: node
-description: null

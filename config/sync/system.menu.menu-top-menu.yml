@@ -1,8 +1,0 @@
-uuid: 9bd52e3c-7423-4388-98f9-e60a7b71d145
-langcode: en
-status: true
-dependencies: {  }
-id: menu-top-menu
-label: 'Top Menu'
-description: ''
-locked: false

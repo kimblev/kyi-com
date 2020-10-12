@@ -1,4 +1,4 @@
-uuid: bcfe1828-005f-43a0-b1cc-fb628f74f035
+uuid: 440e9d7c-c64a-4927-beb7-5ff95389377f
 langcode: en
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: DyypzTfThX10FFQw-399qPfEbLLyrhXgQrKPVsmAoJ4
 id: user_block_user_action
-label: 'Block current user'
+label: 'Block the selected user(s)'
 type: user
 plugin: user_block_user_action
 configuration: {  }

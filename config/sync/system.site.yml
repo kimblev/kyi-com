@@ -1,14 +1,14 @@
-uuid: 332b884e-8221-4c92-9c61-695b1cc4b4ce
-name: 'Kentucky Realtor Institute'
-mail: info@kyrealtorinstitute.com
+uuid: 3d732446-e2ed-4ea1-b876-f7be467d036e
+name: 'Drush Site-Install'
+mail: admin@example.com
 slogan: ''
 page:
-  403: /
-  404: /
-  front: /node/20
+  403: ''
+  404: ''
+  front: /node
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en
 default_langcode: en
 _core:
-  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

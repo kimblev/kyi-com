@@ -1,8 +1,0 @@
-uuid: 474bab2c-c1c2-4f0e-ac64-2423a6ced8b1
-langcode: en
-status: true
-dependencies: {  }
-id: comment_node_affiliate_landing
-label: 'Affiliate Landing comment'
-target_entity_type_id: node
-description: null

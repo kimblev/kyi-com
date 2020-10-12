@@ -1,4 +1,4 @@
-uuid: 840de514-ab6a-40fa-a040-0c40f456d509
+uuid: 56336a9b-c8e6-42d4-82e0-66ce32907908
 langcode: en
 status: true
 dependencies:
@@ -26,8 +26,5 @@ hidden:
   is_default: true
   mail: true
   name: true
-  prices_include_tax: true
-  shipping_countries: true
-  tax_registrations: true
   timezone: true
   uid: true
