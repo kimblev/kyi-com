@@ -9,7 +9,7 @@ Client cannot give me SSH access to their server, so I set up D8 site on my Dev 
 
 I then copied the live site to my host and tried to pull migration data again but ISP blocked it (at least the error was signed by Comcast).
 
-I then tried building the D* site on my Dev, becuase it must use Composer due to Commerce requirement, with plan to copy that site also to my host and then perform the migration.
+I then tried building the D* site on my Dev, because it must use Composer due to Commerce requirement, with plan to copy that site also to my host and then perform the migration.
 
 Now I have discovered that Dreamhost allows shared hosting account to install Composer (and Drush). So maybe no need for my Dev machine at all
 
